@@ -15,3 +15,7 @@ Open a command line and run `npm i`
 Run `npm start`
 
 If all goes well, you'll see a message saying "Watching for file changes on ./album.jpg". Once you pause/unpause or change track this'll kick off a render and you'll have song.png which you can add as an image source to  OBS/similar.
+
+Example:
+
+![https://i.fyrsta.co.uk/bd3ASJWD.png](https://i.fyrsta.co.uk/bd3ASJWD.png)
