@@ -1,0 +1,13 @@
+{
+  "name": "pretzel-visualizer",
+  "version": "0.0.1",
+  "description": "Pretzel Rocks Visualizer",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "log-timestamp": "^0.3.0",
+    "md5": "^2.3.0",
+    "node-html-to-image": "^3.1.0"
+  }
+}

@@ -1,0 +1,52 @@
+<html>
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+        body {
+            height: 140px;
+            width: 500px;
+            font-family: 'Poppins', sans-serif;
+            background-color: #303030;
+            border: 1px solid #838383;
+            color: white;
+            box-sizing: border-box;
+        }
+
+        img {
+            height: 138px;
+            width: 138px;
+            float: left;
+            border-right: 1px solid #838383;
+        }
+
+        .body {
+            height: 140px;
+            width: 347px;
+            float: right;
+        }
+
+        h1 {
+            font-size: 22px;
+        }
+
+        h2 {
+            font-size: 14px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 320px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <img src="{{albumCover}}" />
+    <div class="body">
+        <h1>{{song}}</h1>
+        <h2>{{artist}}</h2>
+        <h2>{{album}}</h2>
+    </div>
+</div>
+</body>
+</html>
